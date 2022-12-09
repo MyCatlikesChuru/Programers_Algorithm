@@ -23,6 +23,7 @@ public class Spy {
         /*
         * 1. Map에 같은 종류의 의상끼리 카운팅하여 숫자를 센다.
         * 2. 의상 종류가 나왔고 해당 수량이 나왔으니, 조합하여 경우의 수를 구한다.
+        * (A+1)*(B+1) - 1 = 경우의 수
         * */
         HashMap<String,Integer> hashMap = new HashMap<>();
         int result = 1;
